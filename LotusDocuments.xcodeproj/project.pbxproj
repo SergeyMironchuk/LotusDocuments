@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90F6BEC1C29838F0094B386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6BEB1C29838F0094B386 /* main.m */; };
+		D90F6BEF1C29838F0094B386 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6BEE1C29838F0094B386 /* AppDelegate.m */; };
+		D90F6BF21C29838F0094B386 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6BF11C29838F0094B386 /* DocumentViewController.m */; };
+		D90F6BF51C29838F0094B386 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F6BF31C29838F0094B386 /* Main_iPhone.storyboard */; };
+		D90F6BF71C29838F0094B386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F6BF61C29838F0094B386 /* Assets.xcassets */; };
+		D90F6BFA1C29838F0094B386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F6BF81C29838F0094B386 /* LaunchScreen.storyboard */; };
+		D90F6C051C2983900094B386 /* LotusDocumentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C041C2983900094B386 /* LotusDocumentsTests.m */; };
+		D90F6C101C2983900094B386 /* LotusDocumentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C0F1C2983900094B386 /* LotusDocumentsUITests.m */; };
+		D90F6C1F1C2987230094B386 /* LotusDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C1E1C2987230094B386 /* LotusDocument.m */; };
+		D90F6C221C299BEF0094B386 /* LotusDocumentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C211C299BEF0094B386 /* LotusDocumentsTVC.m */; };
+		D9522CFA1C2AD9EA0098EF73 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9522CF91C2AD9EA0098EF73 /* Main_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90F6C011C2983900094B386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90F6BDF1C29838F0094B386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90F6BE61C29838F0094B386;
+			remoteInfo = LotusDocuments;
+		};
+		D90F6C0C1C2983900094B386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90F6BDF1C29838F0094B386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90F6BE61C29838F0094B386;
+			remoteInfo = LotusDocuments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90F6BE71C29838F0094B386 /* LotusDocuments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotusDocuments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90F6BEB1C29838F0094B386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90F6BED1C29838F0094B386 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D90F6BEE1C29838F0094B386 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D90F6BF01C29838F0094B386 /* DocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		D90F6BF11C29838F0094B386 /* DocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		D90F6BF41C29838F0094B386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D90F6BF61C29838F0094B386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90F6BF91C29838F0094B386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90F6BFB1C29838F0094B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90F6C001C2983900094B386 /* LotusDocumentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusDocumentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90F6C041C2983900094B386 /* LotusDocumentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotusDocumentsTests.m; sourceTree = "<group>"; };
+		D90F6C061C2983900094B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90F6C0B1C2983900094B386 /* LotusDocumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotusDocumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90F6C0F1C2983900094B386 /* LotusDocumentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotusDocumentsUITests.m; sourceTree = "<group>"; };
+		D90F6C111C2983900094B386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90F6C1D1C2987230094B386 /* LotusDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotusDocument.h; sourceTree = "<group>"; };
+		D90F6C1E1C2987230094B386 /* LotusDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotusDocument.m; sourceTree = "<group>"; };
+		D90F6C201C299BEF0094B386 /* LotusDocumentsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotusDocumentsTVC.h; sourceTree = "<group>"; };
+		D90F6C211C299BEF0094B386 /* LotusDocumentsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotusDocumentsTVC.m; sourceTree = "<group>"; };
+		D9522CF91C2AD9EA0098EF73 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90F6BE41C29838F0094B386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6BFD1C2983900094B386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6C081C2983900094B386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90F6BDE1C29838F0094B386 = {
+			isa = PBXGroup;
+			children = (
+				D90F6BE91C29838F0094B386 /* LotusDocuments */,
+				D90F6C031C2983900094B386 /* LotusDocumentsTests */,
+				D90F6C0E1C2983900094B386 /* LotusDocumentsUITests */,
+				D90F6BE81C29838F0094B386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90F6BE81C29838F0094B386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90F6BE71C29838F0094B386 /* LotusDocuments.app */,
+				D90F6C001C2983900094B386 /* LotusDocumentsTests.xctest */,
+				D90F6C0B1C2983900094B386 /* LotusDocumentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90F6BE91C29838F0094B386 /* LotusDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				D90F6BED1C29838F0094B386 /* AppDelegate.h */,
+				D90F6BEE1C29838F0094B386 /* AppDelegate.m */,
+				D90F6BF01C29838F0094B386 /* DocumentViewController.h */,
+				D90F6BF11C29838F0094B386 /* DocumentViewController.m */,
+				D90F6BF31C29838F0094B386 /* Main_iPhone.storyboard */,
+				D9522CF91C2AD9EA0098EF73 /* Main_iPad.storyboard */,
+				D90F6BF61C29838F0094B386 /* Assets.xcassets */,
+				D90F6BF81C29838F0094B386 /* LaunchScreen.storyboard */,
+				D90F6BFB1C29838F0094B386 /* Info.plist */,
+				D90F6BEA1C29838F0094B386 /* Supporting Files */,
+				D90F6C1D1C2987230094B386 /* LotusDocument.h */,
+				D90F6C1E1C2987230094B386 /* LotusDocument.m */,
+				D90F6C201C299BEF0094B386 /* LotusDocumentsTVC.h */,
+				D90F6C211C299BEF0094B386 /* LotusDocumentsTVC.m */,
+			);
+			path = LotusDocuments;
+			sourceTree = "<group>";
+		};
+		D90F6BEA1C29838F0094B386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90F6BEB1C29838F0094B386 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D90F6C031C2983900094B386 /* LotusDocumentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90F6C041C2983900094B386 /* LotusDocumentsTests.m */,
+				D90F6C061C2983900094B386 /* Info.plist */,
+			);
+			path = LotusDocumentsTests;
+			sourceTree = "<group>";
+		};
+		D90F6C0E1C2983900094B386 /* LotusDocumentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D90F6C0F1C2983900094B386 /* LotusDocumentsUITests.m */,
+				D90F6C111C2983900094B386 /* Info.plist */,
+			);
+			path = LotusDocumentsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90F6BE61C29838F0094B386 /* LotusDocuments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90F6C141C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocuments" */;
+			buildPhases = (
+				D90F6BE31C29838F0094B386 /* Sources */,
+				D90F6BE41C29838F0094B386 /* Frameworks */,
+				D90F6BE51C29838F0094B386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotusDocuments;
+			productName = LotusDocuments;
+			productReference = D90F6BE71C29838F0094B386 /* LotusDocuments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90F6BFF1C2983900094B386 /* LotusDocumentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90F6C171C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocumentsTests" */;
+			buildPhases = (
+				D90F6BFC1C2983900094B386 /* Sources */,
+				D90F6BFD1C2983900094B386 /* Frameworks */,
+				D90F6BFE1C2983900094B386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90F6C021C2983900094B386 /* PBXTargetDependency */,
+			);
+			name = LotusDocumentsTests;
+			productName = LotusDocumentsTests;
+			productReference = D90F6C001C2983900094B386 /* LotusDocumentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D90F6C0A1C2983900094B386 /* LotusDocumentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90F6C1A1C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocumentsUITests" */;
+			buildPhases = (
+				D90F6C071C2983900094B386 /* Sources */,
+				D90F6C081C2983900094B386 /* Frameworks */,
+				D90F6C091C2983900094B386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90F6C0D1C2983900094B386 /* PBXTargetDependency */,
+			);
+			name = LotusDocumentsUITests;
+			productName = LotusDocumentsUITests;
+			productReference = D90F6C0B1C2983900094B386 /* LotusDocumentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90F6BDF1C29838F0094B386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "ATB-Market";
+				TargetAttributes = {
+					D90F6BE61C29838F0094B386 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8YFXU48BL4;
+					};
+					D90F6BFF1C2983900094B386 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D90F6BE61C29838F0094B386;
+					};
+					D90F6C0A1C2983900094B386 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D90F6BE61C29838F0094B386;
+					};
+				};
+			};
+			buildConfigurationList = D90F6BE21C29838F0094B386 /* Build configuration list for PBXProject "LotusDocuments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90F6BDE1C29838F0094B386;
+			productRefGroup = D90F6BE81C29838F0094B386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90F6BE61C29838F0094B386 /* LotusDocuments */,
+				D90F6BFF1C2983900094B386 /* LotusDocumentsTests */,
+				D90F6C0A1C2983900094B386 /* LotusDocumentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90F6BE51C29838F0094B386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F6BFA1C29838F0094B386 /* LaunchScreen.storyboard in Resources */,
+				D9522CFA1C2AD9EA0098EF73 /* Main_iPad.storyboard in Resources */,
+				D90F6BF71C29838F0094B386 /* Assets.xcassets in Resources */,
+				D90F6BF51C29838F0094B386 /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6BFE1C2983900094B386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6C091C2983900094B386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90F6BE31C29838F0094B386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F6C1F1C2987230094B386 /* LotusDocument.m in Sources */,
+				D90F6BF21C29838F0094B386 /* DocumentViewController.m in Sources */,
+				D90F6BEF1C29838F0094B386 /* AppDelegate.m in Sources */,
+				D90F6C221C299BEF0094B386 /* LotusDocumentsTVC.m in Sources */,
+				D90F6BEC1C29838F0094B386 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6BFC1C2983900094B386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F6C051C2983900094B386 /* LotusDocumentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90F6C071C2983900094B386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F6C101C2983900094B386 /* LotusDocumentsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90F6C021C2983900094B386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90F6BE61C29838F0094B386 /* LotusDocuments */;
+			targetProxy = D90F6C011C2983900094B386 /* PBXContainerItemProxy */;
+		};
+		D90F6C0D1C2983900094B386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90F6BE61C29838F0094B386 /* LotusDocuments */;
+			targetProxy = D90F6C0C1C2983900094B386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90F6BF31C29838F0094B386 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90F6BF41C29838F0094B386 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D90F6BF81C29838F0094B386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90F6BF91C29838F0094B386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90F6C121C2983900094B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90F6C131C2983900094B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90F6C151C2983900094B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LotusDocuments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocuments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90F6C161C2983900094B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LotusDocuments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocuments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D90F6C181C2983900094B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotusDocumentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocumentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotusDocuments.app/LotusDocuments";
+			};
+			name = Debug;
+		};
+		D90F6C191C2983900094B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotusDocumentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocumentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotusDocuments.app/LotusDocuments";
+			};
+			name = Release;
+		};
+		D90F6C1B1C2983900094B386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotusDocumentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocumentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotusDocuments;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D90F6C1C1C2983900094B386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotusDocumentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocumentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotusDocuments;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90F6BE21C29838F0094B386 /* Build configuration list for PBXProject "LotusDocuments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F6C121C2983900094B386 /* Debug */,
+				D90F6C131C2983900094B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90F6C141C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocuments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F6C151C2983900094B386 /* Debug */,
+				D90F6C161C2983900094B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90F6C171C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocumentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F6C181C2983900094B386 /* Debug */,
+				D90F6C191C2983900094B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90F6C1A1C2983900094B386 /* Build configuration list for PBXNativeTarget "LotusDocumentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F6C1B1C2983900094B386 /* Debug */,
+				D90F6C1C1C2983900094B386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90F6BDF1C29838F0094B386 /* Project object */;
+}
