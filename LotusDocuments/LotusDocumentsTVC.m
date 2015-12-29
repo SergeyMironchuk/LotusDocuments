@@ -56,6 +56,7 @@
                 NSMutableArray *documentArray = [[NSMutableArray alloc] init];
                 for (NSDictionary *documentDictionary in documents) {
                     LotusDocument *lotusDocument = [[LotusDocument alloc] init];
+                    lotusDocument.UNID = [documentDictionary valueForKey:@"UNID"];
                     lotusDocument.TDate = [documentDictionary valueForKey:@"TDate"];
                     lotusDocument.Refer = [documentDictionary valueForKey:@"Refer"];
                     lotusDocument.Number = [documentDictionary valueForKey:@"Number"];
@@ -91,7 +92,6 @@
     return [self.documents count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Document Title Cell" forIndexPath:indexPath];
     
@@ -105,11 +105,16 @@
 
 #pragma mark - UITableViewDelegate
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCDFAInspection"
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    id detail = self.splitViewController.viewControllers[1];
-    if ([detail isKindOfClass:[UINavigationController class]]) {
-        detail = [((UINavigationController *) detail).viewControllers firstObject];
+    id detailNavigationController = self.splitViewController.viewControllers[1];
+    if ([detailNavigationController isKindOfClass:[UINavigationController class]]) {
+        UINavigationController *navigationController = (UINavigationController *) detailNavigationController;
+        id detail = [navigationController.viewControllers firstObject];
         if ([detail isKindOfClass:[DocumentViewController class]]) {
+            //if(![navigationController.topViewController isKindOfClass:[DocumentViewController class]])
+                [((DocumentViewController *)detail).navigationController popViewControllerAnimated:YES];
             [self prepareViewController:detail toDisplayDocument:self.documents[indexPath.row]];
             if (UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation)) {
                 self.splitViewController.displayModeButtonItem.title = self.title;
@@ -124,6 +129,7 @@
     //[self.splitViewController.view setNeedsLayout];
     //[self.splitViewController willRotateToInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation duration:0];
 }
+#pragma clang diagnostic pop
 
 #pragma mark - Navigation
 

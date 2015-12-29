@@ -18,6 +18,10 @@
 		D90F6C1F1C2987230094B386 /* LotusDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C1E1C2987230094B386 /* LotusDocument.m */; };
 		D90F6C221C299BEF0094B386 /* LotusDocumentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F6C211C299BEF0094B386 /* LotusDocumentsTVC.m */; };
 		D9522CFA1C2AD9EA0098EF73 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9522CF91C2AD9EA0098EF73 /* Main_iPad.storyboard */; };
+		D95617851C32DC0B00C62528 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95617831C32DBE700C62528 /* QuickLook.framework */; };
+		D95617871C32DC1A00C62528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95617861C32DC1A00C62528 /* UIKit.framework */; };
+		D95617891C32DD2D00C62528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95617881C32DD2D00C62528 /* CoreGraphics.framework */; };
+		D956178B1C32DD3B00C62528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D956178A1C32DD3B00C62528 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		D90F6C201C299BEF0094B386 /* LotusDocumentsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotusDocumentsTVC.h; sourceTree = "<group>"; };
 		D90F6C211C299BEF0094B386 /* LotusDocumentsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotusDocumentsTVC.m; sourceTree = "<group>"; };
 		D9522CF91C2AD9EA0098EF73 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		D95617831C32DBE700C62528 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		D95617861C32DC1A00C62528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D95617881C32DD2D00C62528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D956178A1C32DD3B00C62528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D956178B1C32DD3B00C62528 /* Foundation.framework in Frameworks */,
+				D95617891C32DD2D00C62528 /* CoreGraphics.framework in Frameworks */,
+				D95617871C32DC1A00C62528 /* UIKit.framework in Frameworks */,
+				D95617851C32DC0B00C62528 /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +105,7 @@
 				D90F6C031C2983900094B386 /* LotusDocumentsTests */,
 				D90F6C0E1C2983900094B386 /* LotusDocumentsUITests */,
 				D90F6BE81C29838F0094B386 /* Products */,
+				D956178C1C32DE6B00C62528 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +164,17 @@
 				D90F6C111C2983900094B386 /* Info.plist */,
 			);
 			path = LotusDocumentsUITests;
+			sourceTree = "<group>";
+		};
+		D956178C1C32DE6B00C62528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D956178A1C32DD3B00C62528 /* Foundation.framework */,
+				D95617881C32DD2D00C62528 /* CoreGraphics.framework */,
+				D95617861C32DC1A00C62528 /* UIKit.framework */,
+				D95617831C32DBE700C62528 /* QuickLook.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,7 +457,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LotusDocuments/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocuments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,7 +473,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LotusDocuments/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atbmarket.rpo.LotusDocuments;
 				PRODUCT_NAME = "$(TARGET_NAME)";

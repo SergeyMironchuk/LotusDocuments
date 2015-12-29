@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface LotusDocument : NSObject
+@property (nonatomic, strong) NSString *UNID;
 @property (nonatomic, strong) NSString *TDate;
 @property (nonatomic, strong) NSString *Refer;
 @property (nonatomic, strong) NSString *Text;

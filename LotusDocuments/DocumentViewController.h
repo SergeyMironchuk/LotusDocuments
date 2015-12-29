@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuickLook/QuickLook.h>
 #import "LotusDocument.h"
 
 @interface DocumentViewController : UIViewController
